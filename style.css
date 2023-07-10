@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* Start Header Top */
+
+#header-top{
+    width: 100%;
+    height: 620px;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-title{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 140px;
+}
+
+.header-title h2{
+    color: #272727;
+    font-size: 78px;
+    font-weight: 800;
+    width: 700px;
+    margin-bottom: 15px;
+}
+
+
+.header-title p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.shop a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 12px 20px;
+    border: 2px solid #E55473;
+}
+
+.shop a:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.header-img{
+    width: 50%;
+}
+
+.header-img img{
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+/* End Header Top */
+
+
+/* Start Hot Deal */
+#hot-deal{
+    width: 100%;
+    height: 400px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+
+}
+
+.hot-deal-title{
+    width: 60%;
+    height: 300px;
+    margin-top: 180px;
+    margin-left: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hot-deal-title h2{
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.hot-deal-title h2 span{
+    color: #E55473;
+}
+.hot-deal-title p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 80%;
+}
+
+.hot-deal-title a{
+    text-decoration: none;
+    padding: 12px 25px;
+    align-items: flex-start;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    margin-top: 20px;
+    border: 2px solid #E55473;
+}
+
+.hot-deal-title a:hover{
+    color: black;
+    background-color: transparent;
+}
+
+.hot-deal-img{
+    width: 40%;
+}
+
+.hot-deal-img img{
+    width: 160px;
+}
+
+/* End Hot Deal */
+
+/* Start Instagram Section*/
+
+#instagram{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.section-instagram{
+    margin-top: 80px;
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+.section-instagram h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.section-instagram p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 380px;
+    margin-bottom: 15px;
+    width: 42%;
+    position: absolute;
+}
+
+.img-galary{
+    margin: 0 130px;
+}
+
+.img-galary img{
+    height: 300px;
+    margin-right: 10px;
+
+}
+
+.img-galary:last-child img{
+    margin-right: 10px;
+}
+
+/* End Instagram Section*/
+
+/* Start Get The Latest Deals */
+
+.get-the-latest-deals-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 350px; */
+    position: relative;
+    background-size: 80%;
+    /* border-radius: 8px; */
+    background: url(./img/Rectangle\ 9.png) no-repeat;
+    background-position: 50px;
+}
+
+
+.sk{
+    /* width: 70%;
+    height: 250px;
+    border: 1px solid red;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    border-radius: 8px;
+    background: url(./img/Rectangle\ 9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    box-sizing: border-box; */
+}
+
+
+
+.get-the-latest-deals{
+    
+}
+
+.get-the-latest-deals h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 5px;
+}
+
+.get-the-latest-deals p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    
+}
+
+#subscribe-box{
+    border-radius: 8px;
+    background: #FFF;
+    width: 450px;
+    height: 40px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+#subscribe-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    border: 2px solid #E55473;
+}
+
+#subscribe-btn:hover{
+    background-color: transparent;
+    color: black;
+}
+
+
+/* Start Footer */
+
+.footer-menu{
+    width: 100%;
+    height: 300px;
+    background: #111010;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-heading h2{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.footer-heading h2 span{
+    color: #E55473;
+}
+
+.footer-dec{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.copy-text{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* End Footer */
