@@ -147,7 +147,6 @@ body{
     height: 600px;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
 }
 
 .section-instagram{
@@ -274,6 +273,7 @@ body{
     height: 40px;
     margin-left: 10px;
     border: 2px solid #E55473;
+    cursor: pointer;
 }
 
 #subscribe-btn:hover{
@@ -298,7 +298,7 @@ body{
     font-size: 48px;
     font-weight: 800;
     margin-top: 70px;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 
 .footer-heading h2 span{
@@ -311,7 +311,7 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .copy-text{
