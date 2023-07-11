@@ -1,3 +1,4 @@
+/* Global CSS */
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +7,7 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+
 
 /* Start Header Top */
 
@@ -123,7 +125,6 @@ body{
     text-decoration-line: underline;
 }
 
-
 /* End Our Featured Flowers Section */
 
 
@@ -194,6 +195,49 @@ body{
 
 /* End Hot Deal */
 
+
+/* Start Happy Clients */
+
+#our-clients{
+    background-image: linear-gradient(#a17f7fa2,#000000a2),url(img/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 93%;
+    height: 300px;
+    margin: auto;
+}
+
+.our-clients-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our-clients-feedback{
+    flex-basis: 22%;
+    background-color: #ee6482;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.our-clients-feedback h2{
+    font-size: 50px;
+}
+
+.our-clients-feedback span{
+    font-weight: 700;
+}
+
+/* End Happy Client */
+
+
 /* Start Instagram Section*/
 
 #instagram{
@@ -237,7 +281,6 @@ body{
 .img-galary img{
     height: 300px;
     margin-right: 10px;
-
 }
 
 .img-galary:last-child img{
@@ -245,6 +288,7 @@ body{
 }
 
 /* End Instagram Section*/
+
 
 /* Start Get The Latest Deals */
 
@@ -258,11 +302,6 @@ body{
     margin-top: 10px;
     margin-bottom: 30px;
 }
-
-
-
-
-
 
 .get-the-latest-deals{
     padding: 50px 300px;
@@ -286,11 +325,6 @@ body{
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 25px;
-    
-}
-
-.subscribe{
-    
 }
 
 #subscribe-box{
@@ -321,6 +355,8 @@ body{
     background-color: transparent;
     color: black;
 }
+
+/* End Get The Latest Deals */
 
 /* Start Footer */
 
