@@ -200,35 +200,19 @@ body{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 350px; */
-    position: relative;
-    background-size: 80%;
-    /* border-radius: 8px; */
-    background: url(./img/Rectangle\ 9.png) no-repeat;
-    background-position: 50px;
-}
-
-
-.sk{
-    /* width: 70%;
-    height: 250px;
-    border: 1px solid red;
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
     height: 350px;
-    position: relative;
-    border-radius: 8px;
-    background: url(./img/Rectangle\ 9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat;
-    box-sizing: border-box; */
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
+
+
+
 
 
 
 .get-the-latest-deals{
-    
+    padding: 50px 300px;
+    background-image: url(./img/Rectangle\ 9.png);
 }
 
 .get-the-latest-deals h2{
@@ -237,7 +221,7 @@ body{
     font-size: 40px;
     font-weight: 800;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 40px;
     margin-bottom: 5px;
 }
 
@@ -251,16 +235,19 @@ body{
     
 }
 
+.subscribe{
+    
+}
+
 #subscribe-box{
     border-radius: 8px;
     background: #FFF;
-    width: 450px;
-    height: 40px;
     color: black;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
     border: none;
+    padding: 12px 75px;
 }
 
 #subscribe-btn{
@@ -281,7 +268,6 @@ body{
     color: black;
 }
 
-
 /* Start Footer */
 
 .footer-menu{
@@ -298,7 +284,7 @@ body{
     font-size: 48px;
     font-weight: 800;
     margin-top: 70px;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
 }
 
 .footer-heading h2 span{
@@ -310,8 +296,9 @@ body{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 25px;
+    line-height: 25px;
+    width: 500px;
+    margin: 0 auto;
 }
 
 .copy-text{
@@ -319,6 +306,7 @@ body{
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 15px;
 }
 
 /* End Footer */
